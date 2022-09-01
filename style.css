@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.text-area{
+    background-color: pink;
+    padding: 30px;
+    margin: 2px;
+    text-align: justify;
+    
+}
+.text-area .h1{
+    margin: 15px 0;
+}
+.select{
+    background-color: antiquewhite;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+}
+label{
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.font{
+    background-color: azure;
+    padding: 10px 0;
+}
+button{
+    background-color: blue;
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    margin: 0 20px 0 20px;
+    width: 150px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+button:hover{
+    color: pink;
+    background-color: rgba(146, 92, 20, 0.767);
+}
+
+.text-area h1{
+    text-align: center;
+ 
+   
+}
+p{
+    margin: 10px 0;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+.col{
+width: 450px;
+min-height: 200px;
+box-shadow: 2px 1px 5px 1px blue;
+text-align: center;
+padding: 15px 0;
+margin: 15px 10px;
+transition: 0.5s;
+}
+.col:hover{
+    background-color: bisque;
+}
+.ab{
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.ab:hover{
+    background-color: white;
+    padding-top: 90px;
+
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .row{
+        flex-direction: column;
+    }
+    .col{
+        width: 350px;
+        padding: 10px;
+        }
+    .select{
+            
+            height: 30px;
+            width: 80px;
+            font-size: 14px;
+        }
+        label{
+            font-size: 14px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        button{
+            
+            font-size: 14px;
+            color: white;
+            margin: 10px 20px 0 20px;
+            width: 100px;
+            border-radius: 10px;
+            transition: 0.5s;
+        }
+}
